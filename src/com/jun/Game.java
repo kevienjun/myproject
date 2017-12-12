@@ -6,29 +6,29 @@ public class Game {
 
 	public static void main(String[] args) {
 		for (int a = 1;a>0; a++) {
-			System.out.println("è«‹è¼¸å…¥2 4 6 8 0å…¶ä¸­ä¸€å€‹:");
+			System.out.println("½Ğ¿é¤J 2 4 6 8 ¨ä¤¤¤@­Ó¤è¦V:");
 			Scanner scanner = new Scanner(System.in);
 			String line = scanner.nextLine();
 			int n = Integer.parseInt(line);
 
 			switch (n) {
 			case 8:
-				System.out.println("å‘ä¸Š");
+				System.out.println("¦V¤W");
 				break;
 			case 4:
-				System.out.println("å‘å·¦");
+				System.out.println("¦V¥ª");
 				break;
 			case 6:
-				System.out.println("å‘ä¸‹");
+				System.out.println("¦V¥k");
 				break;
 			case 2:
-				System.out.println("å‘å³");
+				System.out.println("¦V¤U");
 				break;
 			case 0:
-				System.out.println("çµæŸç¨‹å¼");
+				System.out.println("µ²§ô");
 				break;
 			default:
-				System.out.println("å‡å‡å¥½å£æ„›");
+				System.out.println("??????");
 
 			}
 			if(n==0){

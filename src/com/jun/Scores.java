@@ -19,7 +19,7 @@ public class Scores {
 		scores[4][2] = 55;
 		
 		for (int i=0; i<5; i++){
-			System.out.print(scores[i][0]+" "+scores)
+			System.out.print(scores[i][0]+" "+scores);
 		}
 		
 
