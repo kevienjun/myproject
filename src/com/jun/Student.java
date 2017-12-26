@@ -5,6 +5,10 @@ public class Student {
 	int math;
 	int chinese;
 	String name;
+	public Student(){
+		
+	}
+	
 
 public Student (String name, int english,int math,int chinese){
 		this.name = name;
@@ -23,5 +27,10 @@ public void print(){
 
 public int getAverage(){
 	return (english+math+chinese)/3;
+}
+
+
+public static void method(){
+	System.out.println("hello");
 }
 }
