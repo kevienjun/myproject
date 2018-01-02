@@ -1,8 +1,8 @@
-package com.jun;
+package com.jun.aa;
 
 public class Student {
 	int english;
-	int math;
+	protected int math;
 	int chinese;
 	String name;
 	public Student(){
@@ -16,10 +16,11 @@ public Student (String name, int english,int math,int chinese){
 		this.math = math;
 		this.chinese = chinese;
 	}
-public Student(String name){
-	this.name = name;
+public Student(String n){
+	this.name = n;
 }
 public void print(){
+	
 	System.out.println(english+"\t"+math+"\t"+chinese);
 }
 	
